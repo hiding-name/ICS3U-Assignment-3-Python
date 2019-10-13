@@ -20,6 +20,9 @@ def main():
           " years work as well.")
     input("Press Enter to continue.\n")
 
+    # variables
+    days = 0
+    
     # input
     month = input("What month is it:")
     year = int(input("What year is it:"))
@@ -28,7 +31,6 @@ def main():
     # This way it doesn't matter if they type first letter capital or something
     month = month.lower()
 
-    days = 0
     # process
     if month in days_with_31:
         days = 31
@@ -45,9 +47,9 @@ def main():
     else:
         print("Invalid input.")
 
+    # output
     print("\n" + str(month.capitalize()) + " of " + str(year) + " has " +
           str(days) + " days.")
-    # output
 
 
 if __name__ == "__main__":
