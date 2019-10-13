@@ -5,7 +5,7 @@
 # This is program gives user number of days in a month based on month given
 
 
-# lists for month with 31 and 30 days    elif month == "april"
+# lists for month with 31 and 30 days
 
 days_with_31 = ["january", "march", "may", "july", "august", "october",
                 "december"]
