@@ -38,6 +38,7 @@ def main():
         days = 30
     # deal with february
     elif month == "february":
+        days = 28
         if year % 4 == 0:
             if year % 100 == 0:
                 if year % 400:
