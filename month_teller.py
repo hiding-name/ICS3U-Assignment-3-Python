@@ -41,8 +41,8 @@ def main():
         days = 28
         if year % 4 == 0:
             if year % 100 == 0:
-                if year % 400:
-                    days == 29
+                if year % 400 == 0:
+                    days = 29
             else:
                 days = 29
     else:
